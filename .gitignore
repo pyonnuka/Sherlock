@@ -9,12 +9,16 @@
 
 # Ignore include password files
 /config/database.yml
+/config/initializers/constant.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/public/uploads/
+/.idea
+/.rbenv-gemsets
 
 # Ignore Byebug command history file.
 .byebug_history
