@@ -163,21 +163,6 @@ html {
  .address {
      margin-top: 30px;
  }
-
-a.twitter-share-button{
-    width:50%;
-    padding:20px 0;
-    color:#fff;
-    text-align:center;
-    background-color:#00acee;
-    height:30px;
-    display:block;
-    text-decoration:none;
-    font-size:20px;
-    float:left;
-    margin-bottom:10px;
-}
-
-a.twitter-share-button:hover{
-    background-color:#6aafca;
-}
+ .shop-info-content {
+     margin-bottom: 50px;
+ }
