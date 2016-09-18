@@ -1,3 +1,32 @@
-= form_tag result_path, multipart: true do
-  = file_field_tag :file, accept: "image/jpg"
-  = submit_tag "お店を探す"
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title　Sherlock
+  body
+
+    header.header
+      .wrapper
+        .header-wrapper
+          .header-title
+            = link_to root_path do
+                =image_tag("sharock-logo.png", class: "header-logo")
+
+    section#top
+      .wrapper
+        h2 .heading
+         |<br class="heading-1-br">Let's find shop <br class="heading-2-br">from your pic!!<br class="heading-3-br"></h2>
+        .top-wrapper
+
+          .top-form
+            .addImage
+              .upload-btn
+                p .btn-content
+                  i .fa .fa-picture-o aria-hidden: "true"
+                    | Add pic
+                    = form_tag result_path, multipart: true do
+                    　= file_field_tag :file, accept: "image/jpg"
+              .search-btn
+                p .btn-content
+                 i .fa .fa-search .search-icon aria-hidden: "true"
+                  = submit_tag "お店を探す"

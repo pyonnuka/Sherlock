@@ -1,0 +1,45 @@
+@media screen and (max-width: 999px) {
+
+  .heading-1-br {
+    display: inline-block;
+  }
+
+  .heading-2-br {
+    display: inline-block;
+  }
+
+  .heading-3-br {
+    display: inline-block;
+  }
+
+}
+@media all and (max-width: 670px ) {
+ .heading {
+    font-size: 2.5rem;
+  }
+ .btn-content {
+   font-size: 1.8rem;
+ }
+ header .header-logo {
+    height: 35px;
+    vertical-align: middle;
+  }
+  header .header-wrapper {
+    padding: 0 ;
+ }
+
+ .top-wrapper {
+    margin: 30px auto 0;
+}
+
+.addImage {
+  margin: 0 auto;
+}
+
+  .search-btn {
+      position: relative;
+      display: inline-block;
+      padding: 0.4em 0.5em;
+  }
+
+}
