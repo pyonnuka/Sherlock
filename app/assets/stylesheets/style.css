@@ -19,6 +19,7 @@ html {
  }
 
  body {
+   height: 100%;
    font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
    font-weight: 400;
    -webkit-font-smoothing: antialiased;
@@ -51,6 +52,7 @@ html {
   * header
   * -------------------------------- */
   header {
+    position: absolute;
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -90,7 +92,7 @@ html {
   * -------------------------------- */
 
  #top {
-   height: 620px;
+   height: 100vh;
    position: relative;
    background-image: url("back-img.png");
    background-position: right;
