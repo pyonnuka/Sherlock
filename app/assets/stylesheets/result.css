@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+html {
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+ html, body,
+ ul, ol, li,
+ h1, h2, h3, h4, h5, h6, p,
+ form, input, div {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+   font-size: 1.4rem;
+   text-align: center;
+ }
+
+ li {
+   list-style: none;
+ }
+ a {
+    text-decoration: none;
+    color: #323A45;
+    transition: all .3s;
+}
+
+ a:hover {
+   text-decoration: none;
+ }
+
+ .wrapper {
+   max-width: 1170px;
+   width: 100%;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+
+ /* --------------------------------
+  * header
+  * -------------------------------- */
+  header {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    line-height: 1;
+    z-index: 10;
+    height: 50px;
+    background-color: #fff;
+  }
+  header:after {
+    content: "";
+    display: block;
+    line-height: 1;
+    width: 980px;
+    margin: 30px auto 0;
+    position: fixed;
+    z-index: 10;
+  }
+  header .header-wrapper {
+      position: relative;
+      padding: 0 45px;
+  }
+ .header-title {
+   float:left
+ }
+ .header-logo {
+   line-height: 40px;
+   height: 40px;
+   padding-bottom: 10px;
+ }
+
+
+ /* --------------------------------
+  * top
+  * -------------------------------- */
+
+ #top {
+   height: 620px;
+   position: reletive;
+   background-image: url("../images/back-img.png");
+   background-position: center;
+ }
+ .top-form {
+   margin: 0 auto;
+   text-align: center;
+ }
+ .heading {
+   padding: 100px 0 15px;
+   padding-bottom: 10px;
+   letter-spacing: 2px;
+   font-size: 3.5rem;
+   color: white;
+   font-weight: lighter;
+ }
+
+ .heading::before,
+ .heading::after {
+   content: '';
+   display:inline-block;
+   width: 140px;
+   height: 2px;
+   margin: 0 30px;
+   background-color: white;
+   vertical-align: middle;
+ }
+
+ .heading-1-br {
+   display: none;
+ }
+
+ .heading-2-br {
+   display: none;
+ }
+
+ .heading-3-br {
+   display: none;
+ }
+
+
+.top-wrapper {
+  padding-top: 20px;
+}
+
+ .shop-info {
+   font-size: 2.4rem;
+   color: white;
+ }
+ .shop-info .adress{
+   padding-top: 15px;
+ }
+
+ .back-btn {
+   width: 50px;
+   height: 50px;
+   right: 12px;
+   bottom: 12px;
+   border: 1px solid rgba(0,0,0,0.4);
+   border-radius: 50%;
+   background-color: rgba(0,0,0,0.4);
+   display: block;
+   position: fixed;
+   text-align: center;
+ }
+ .back-btn:after, .back-btn:hover:after {
+   content: "";
+   width: 16px;
+   height: 16px;
+   top: 17px;
+   left: 18px;
+   transform: rotate(-135deg);
+   position: absolute;
+   text-align: center;
+ }
+ .back-btn:after {
+   border-top: 4px solid #fff;
+   border-right: 4px solid #fff;
+ }
+ .back-btn:hover:after {
+   border-top:	4px solid #007F37;
+   border-right:	4px solid #007F37;
+ }
