@@ -91,8 +91,8 @@ html {
 
  #top {
    height: 620px;
-   position: reletive;
-   background-image: url("../images/back-img.png");
+   position: relative;
+   background-image: url("back-img.png");
    background-position: right;
    background-size: cover;
  }
@@ -135,13 +135,12 @@ html {
 
  .top-wrapper {
    padding-top: 20px;
- }
- .top-wrapper {
    margin: 50px auto 0;
    table-layout: fixed;
-  color: white;
+   color: white;
  }
  .upload-btn {
+   font-size: 2.4rem;
    position: relative;
    display: inline-block;
    padding: .5em 4em;
@@ -213,4 +212,11 @@ html {
    overflow: hidden;
    transition: all .5s;
    vertical-align: bottom;
+ }
+
+ .search-btn button {
+     color: white;
+     background-color: transparent;
+     border: none;
+     font-size: 2.4rem;
  }

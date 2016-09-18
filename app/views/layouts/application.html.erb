@@ -14,6 +14,18 @@
   </head>
 
   <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-wrapper">
+          <div class="header-title">
+            <%= link_to root_path do %>
+              <%= image_tag("sharock-logo.png", class: "header-logo") %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </header>
     <%= yield %>
+
   </body>
 </html>
