@@ -105,17 +105,6 @@ html {
    font-weight: lighter;
  }
 
- .heading::before,
- .heading::after {
-   content: '';
-   display:inline-block;
-   width: 140px;
-   height: 2px;
-   margin: 0 30px;
-   background-color: white;
-   vertical-align: middle;
- }
-
  .heading-1-br {
    display: none;
  }
@@ -171,3 +160,24 @@ html {
    border-top:	4px solid #007F37;
    border-right:	4px solid #007F37;
  }
+ .address {
+     margin-top: 30px;
+ }
+
+a.twitter-share-button{
+    width:50%;
+    padding:20px 0;
+    color:#fff;
+    text-align:center;
+    background-color:#00acee;
+    height:30px;
+    display:block;
+    text-decoration:none;
+    font-size:20px;
+    float:left;
+    margin-bottom:10px;
+}
+
+a.twitter-share-button:hover{
+    background-color:#6aafca;
+}

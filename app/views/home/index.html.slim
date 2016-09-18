@@ -1,11 +1,14 @@
 section#top
   .wrapper
     h2.heading
-      br.heading-1-br
-      | Let's find shop
-      br.heading-2-br
-      | from your pic!!
-      br.heading-3-br
+      .heading-text
+        br.heading-1-br
+        |気になる写真から
+        br.heading-2-br
+        |お店を探し出そう
+        br.heading-3-br
+    .description
+      | SHERLOCKが人工知能の力でフレンチトーストの画像から代わりにお店を探してくれます。
     .top-wrapper
       .top-form
         .add-image
@@ -13,10 +16,10 @@ section#top
             .upload-btn
               p.btn-content
                 label for="file" class="file"
-                  i.fa.fa-picture-o
-                  | Add pic
+                  | 気になるフレンチトーストを選択
                   = file_field_tag :file, accept: "image/jpg", style: 'display: none'
             .search-btn
               p.btn-content
                 = button_tag "", class: "btn btn-success"
                   i.fa.fa-search.search-icon
+                   | お願いします！

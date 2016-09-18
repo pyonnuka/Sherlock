@@ -25,6 +25,8 @@ html {
    -webkit-font-smoothing: antialiased;
    font-size: 1.4rem;
    text-align: center;
+   background-image: url('./french-toast.jpg');
+   background-size: cover;
  }
 
  li {
@@ -43,9 +45,10 @@ html {
  .wrapper {
    max-width: 1170px;
    width: 100%;
-   padding: 0 15px;
+   padding: 0 40px;
    margin: 0 auto;
  }
+
 
 
  /* --------------------------------
@@ -77,7 +80,7 @@ html {
   }
 
   .header-title {
-  float:left
+      float:left
   }
 
   .header-logo {
@@ -94,30 +97,21 @@ html {
  #top {
    height: 100vh;
    position: relative;
-   background-image: url("back-img.png");
-   background-position: right;
-   background-size: cover;
+   background-color: black;
+   opacity: 0.7;
  }
 
 
  .heading {
-   padding: 100px 0 15px;
+   text-shadow: 1px 1px 3px black;
+   padding: 150px 0 15px;
    padding-bottom: 10px;
    letter-spacing: 2px;
    font-size: 3.5rem;
    color: white;
    font-weight: lighter;
  }
- .heading::before,
- .heading::after {
-   content: '';
-   display:inline-block;
-   width: 140px;
-   height: 2px;
-   margin: 0 30px;
-   background-color: white;
-   vertical-align: middle;
- }
+
  .heading-1-br {
    display: none;
  }
@@ -128,6 +122,9 @@ html {
 
  .heading-3-br {
    display: none;
+ }
+ .heading p {
+   margin: 30px;
  }
 
  .top-form {
@@ -140,6 +137,10 @@ html {
    margin: 50px auto 0;
    table-layout: fixed;
    color: white;
+ }
+ .description {
+     color: white;
+     font-size: 20px;
  }
  .upload-btn {
    font-size: 2.4rem;
@@ -189,6 +190,9 @@ html {
  }
  .btn-content {
    font-size: 2.4rem;
+ }
+ .btn-content button {
+     margin-top: 20px;
  }
  .search-icon{
    border: 1px solid #DDD;

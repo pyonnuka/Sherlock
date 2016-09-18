@@ -1,7 +1,10 @@
 section#top
   .wrapper
     h2.heading
-     p I guess your pic from ...
+      .heading-text
+        br.heading-1-br
+        | ズバリ.. ここでしょう！
+        br.heading-3-br
     .top-wrapper
       .shop-info
         .shop-info-content
@@ -11,3 +14,9 @@ section#top
             = @shop.address
 
       = link_to "", root_path, id: "page-back", class: "back-btn"
+
+    a[href="https://twitter.com/share" class="twitter-share-button" data-text="私が気になるフレンチトーストは「#{@shop.name}」にありました！一緒に行きませんか？"] Tweet
+
+
+javascript:
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');

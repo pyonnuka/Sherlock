@@ -8,21 +8,31 @@
   h2.heading .heading-3-br {
     display: inline-block;
   }
+  .heading-text {
+      margin-bottom: 2.5rem;
+  }
 }
 
 @media all and (max-width: 670px ) {
   .heading {
      font-size: 2.5rem;
    }
-  .btn-content {
-    font-size: 1.8rem;
+
+  header .header-wrapper .header-title {
+      position: absolute;
+      left: 0;
   }
   header .header-logo {
-    height: 35px;
     vertical-align: middle;
   }
   header .header-wrapper {
     padding: 0 ;
+  }
+  .heading-text {
+    margin-bottom: 2.5rem;
+  }
+  h2.heading {
+      font-size: 2.6rem;
   }
   h2.heading .top-wrapper {
     margin: 30px auto 0;
@@ -30,9 +40,19 @@
  .add-image {
     margin: 0 auto;
  }
+ .add-image .upload-btn {
+     padding: .5em 0.5em;
+ }
+ .add-image .upload-btn .btn-content {
+     font-size: 1.8rem;
+ }
   .add-image .search-btn {
       position: relative;
       display: inline-block;
-      padding: 0.4em 0.5em;
+      padding: 0.4em 0.5em 0.1rem;
+  }
+  .shop-info-content {
+      font-size: 4rem;
+      margin-bottom: 50px;
   }
 }

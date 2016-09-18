@@ -5,6 +5,8 @@ class HomeController < ApplicationController
   def result
     @image = Image.create(file: params[:file])
 
+    return redirect_to root_path if @image.file.blank?
+
     require 'rest_client'
     response = RestClient.post("https://gateway-a.watsonplatform.net/visual-recognition/api/v3/classify?api_key=#{$BLUEHUB_API_KEY}&version=2016-09-11",
                     :images_file => File.new(@image.file.path),
