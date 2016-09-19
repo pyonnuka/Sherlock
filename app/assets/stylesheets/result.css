@@ -89,7 +89,6 @@ html {
  #top {
    height: 620px;
    position: reletive;
-   background-image: url("../images/back-img.png");
    background-position: center;
  }
  .top-form {
