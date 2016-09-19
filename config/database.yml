@@ -49,6 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: Sherlock_production
-  username: Sherlock
-  password: <%= ENV['SHERLOCK_DATABASE_PASSWORD'] %>
+  host: ec2-54-235-195-226.compute-1.amazonaws.com
+  database: d37q76jmishhcd
+  username: qpuumjvshxenmh
+  port: 5432
+  password: mRmtPh22MIFvujYV6espr82XhZ
