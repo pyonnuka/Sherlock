@@ -7,9 +7,6 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore include password files
-/config/initializers/constant.rb
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
